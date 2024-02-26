@@ -1,4 +1,6 @@
 import React from 'react';
+import './SaladMaker.scss';
+import SaladBuilder from '../SaladBuilder/SaladBuilder';
 
 
 export default function SaladMaker() {
@@ -9,6 +11,7 @@ export default function SaladMaker() {
           Build Your Custom Salad!
           <span role="img" aria-label="salad"> 🥗</span>
       </h1>
+      <SaladBuilder/>
     </>
   )
 }
